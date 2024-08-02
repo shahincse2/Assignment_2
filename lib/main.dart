@@ -26,14 +26,17 @@ class MyApp extends StatelessWidget {
             children: [
               const Text(
                 'Hello, World!',
-                style:
-                    TextStyle(color: Colors.red, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    color: Colors.red,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 18),
               ),
               const SizedBox(
                 height: 20,
               ),
               const Text(
                 'Welcome to Flutter!',
+                style: TextStyle(fontSize: 18),
               ),
               const SizedBox(
                 height: 20,
@@ -50,7 +53,7 @@ class MyApp extends StatelessWidget {
               Builder(builder: (context) {
                 return ElevatedButton(
                   onPressed: () {
-                   mySnackBar('Pressed Me!', context);
+                    mySnackBar('Pressed Me!', context);
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.green,
