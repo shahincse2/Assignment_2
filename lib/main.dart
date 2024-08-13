@@ -27,23 +27,22 @@ class MyApp extends StatelessWidget {
               const Text(
                 'Hello, World!',
                 style: TextStyle(
-                    color: Colors.red,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 18),
+                  color: Colors.red,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
               const SizedBox(
                 height: 20,
               ),
               const Text(
                 'Welcome to Flutter!',
-                style: TextStyle(fontSize: 18),
               ),
               const SizedBox(
                 height: 20,
               ),
               SizedBox(
-                height: 200,
-                width: 200,
+                height: 148,
+                width: 148,
                 child: Image.network(
                     'https://iconape.com/wp-content/png_logo_vector/flutter-logo.png'),
               ),
